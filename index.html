@@ -1,10 +1,23 @@
+<!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <script type="text/javascript" src="index.js"></script>
+	<meta http-equiv="Content-Type" content="text/html" charset="utf-8">
 </head>
 <body>
-  <h1 id="Title">scatter demo api 测试</h1>
-  <button id = "login">登录</button>
+	<h1 id="Title">scatter demo api 测试</h1>
+ 	<h2 id="findscatter"> 未发现scatter插件，请安装 </h2>
+	<h2 id="checkident"> 尚未登录过，请登录 </h2>
+	<button id = "login">登录</button>
+	<br />
+	<br />
+	<h2>读取合约table测试</h2>
+	<h2 id ="balance">获取个人余额</h2>
+	<button id = "getbalance"> 获取余额 </button>
+	<br />
+	<br />
+	<h2>发送交易测试(调用合约接口),给moon11112222发送1个MZ 代币</h2>
+	<button id ="send">发送一个MZ代币 </button>
+	
+	<script type="text/javascript" src="bundle.js"></script>
 </body>
 </html>
